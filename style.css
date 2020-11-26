@@ -1,0 +1,35 @@
+body {
+  background: #222831;
+}
+.container {
+  max-width: 400px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #eeeeee;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+.todos li {
+  background: #393e46;
+}
+.delete {
+  cursor: pointer;
+}
+
+.border-y{
+    border: 2px solid #222831 !important; 
+}
+.border-y:focus {
+  border-color: #ffd369 !important;
+}
+
+.border-s{
+    border: 2px solid #222831 !important;
+    /* outline: none !important; */
+}
+
+.border-s:focus {
+    border-color: #eeeeee !important;
+  }
