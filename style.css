@@ -33,3 +33,7 @@ input[type="text"]:focus {
 .border-s:focus {
     border-color: #eeeeee !important;
   }
+
+.filtered {
+    display: none !important;
+}
